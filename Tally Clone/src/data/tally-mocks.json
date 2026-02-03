@@ -1,0 +1,51 @@
+{
+  "company": {
+    "name": "ABC Ltd",
+    "period": "01-Apr-2024 to 31-Mar-2025",
+    "currentDate": "31 May 24"
+  },
+  "dashboard": {
+    "cards": [
+      { "title": "Ledger", "amount": 48000, "accent": "blue" },
+      { "title": "Trial Balance", "amount": 30000, "accent": "orange" },
+      { "title": "Cash in Hand", "amount": 150000, "accent": "green" },
+      { "title": "Bank Balance", "amount": 275000, "accent": "teal" }
+    ],
+    "salesPurchaseSeries": [
+      { "label": "April", "sales": 48000, "purchase": 30000 },
+      { "label": "May", "sales": 30000, "purchase": 22000 },
+      { "label": "June", "sales": 20000, "purchase": 18000 }
+    ],
+    "groupDistribution": [
+      { "name": "Sales Accounts", "value": 45 },
+      { "name": "Purchase Accounts", "value": 30 },
+      { "name": "Expenses", "value": 15 },
+      { "name": "Others", "value": 10 }
+    ]
+  },
+  "vouchers": [
+    { "id": 1, "date": "2024-05-01", "type": "Sales", "party": "ABC Ltd", "amount": 48000 },
+    { "id": 2, "date": "2024-05-02", "type": "Sales", "party": "Sharma & Co.", "amount": 30000 },
+    { "id": 3, "date": "2024-05-03", "type": "Purchase", "party": "Verma Traders", "amount": 20000 },
+    { "id": 4, "date": "2024-05-04", "type": "Payment", "party": "Gupta Suppliers", "amount": 15000 },
+    { "id": 5, "date": "2024-05-05", "type": "Receipt", "party": "ABC Ltd", "amount": 22000 },
+    { "id": 6, "date": "2024-05-06", "type": "Journal", "party": "Salary Expenses", "amount": 28000 },
+    { "id": 7, "date": "2024-05-07", "type": "Contra", "party": "SBI Current A/c", "amount": 50000 },
+    { "id": 8, "date": "2024-05-08", "type": "Sales", "party": "Patel Agencies", "amount": 26000 },
+    { "id": 9, "date": "2024-05-09", "type": "Sales", "party": "Mehta Distributors", "amount": 32000 },
+    { "id": 10, "date": "2024-05-10", "type": "Purchase", "party": "Kumar Enterprises", "amount": 17000 },
+    { "id": 11, "date": "2024-05-11", "type": "Receipt", "party": "Patel Agencies", "amount": 21000 },
+    { "id": 12, "date": "2024-05-12", "type": "Payment", "party": "Mehta Distributors", "amount": 16000 },
+    { "id": 13, "date": "2024-05-13", "type": "Journal", "party": "Rent Expenses", "amount": 25000 },
+    { "id": 14, "date": "2024-05-14", "type": "Contra", "party": "Cash in Hand", "amount": 15000 },
+    { "id": 15, "date": "2024-05-15", "type": "Sales", "party": "Singh & Sons", "amount": 31000 }
+  ],
+  "companies": [
+    "ABC Ltd",
+    "XYZ Traders",
+    "New Company",
+    "Training Co.",
+    "Demo Industries"
+  ]
+}
+
